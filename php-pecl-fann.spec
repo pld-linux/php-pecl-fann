@@ -30,7 +30,7 @@ In PECL status of this extension is: %{_status}.
 
 %description -l pl
 Fann (biblioteka szybkich sztucznych sieci neuronowych - ang. fast
-artificial neural network library) implementuje wielowartswowe
+artificial neural network library) implementuje wielowarstwowe
 dwustronne sieci ze wsparciem zarówno dla w pe³ni po³±czonych jak i
 rzadko po³±czonych sieci.
 
