@@ -1,7 +1,7 @@
 %define		_modname	fann
 %define		_status		devel
 Summary:	%{_modname} - artificial neural networks
-Summary(pl.UTF-8):   %{_modname} - sztuczne sieci neuronowe
+Summary(pl.UTF-8):	%{_modname} - sztuczne sieci neuronowe
 Name:		php-pecl-%{_modname}
 Version:	0.1.1
 Release:	2
