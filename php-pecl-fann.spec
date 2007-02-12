@@ -1,7 +1,7 @@
 %define		_modname	fann
 %define		_status		devel
 Summary:	%{_modname} - artificial neural networks
-Summary(pl):	%{_modname} - sztuczne sieci neuronowe
+Summary(pl.UTF-8):   %{_modname} - sztuczne sieci neuronowe
 Name:		php-pecl-%{_modname}
 Version:	0.1.1
 Release:	2
@@ -25,11 +25,11 @@ connected networks.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Fann (biblioteka szybkich sztucznych sieci neuronowych - ang. fast
 artificial neural network library) implementuje wielowarstwowe
-dwustronne sieci ze wsparciem zarówno dla w pe³ni po³±czonych jak i
-rzadko po³±czonych sieci.
+dwustronne sieci ze wsparciem zarÃ³wno dla w peÅ‚ni poÅ‚Ä…czonych jak i
+rzadko poÅ‚Ä…czonych sieci.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
