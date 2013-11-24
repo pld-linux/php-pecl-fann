@@ -5,7 +5,7 @@ Summary:	%{modname} - artificial neural networks
 Summary(pl.UTF-8):	%{modname} - sztuczne sieci neuronowe
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -16,6 +16,7 @@ BuildRequires:	fann-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 Obsoletes:	php-pear-%{modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
